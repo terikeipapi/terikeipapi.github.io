@@ -14,7 +14,8 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username) {
-  greeting.innerText = `Hallo terikeipapi`;
+  // 수정된 부분: 고정된 텍스트 대신 입력받은 username 변수를 출력하도록 변경
+  greeting.innerText = `hallo ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
