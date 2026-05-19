@@ -5,23 +5,23 @@ const quotes = [
   },
   {
     quote: "I'll give you time and space, just know I'm not a phase",
-    autho: "Daniel Caesar - always"
+    author: "Daniel Caesar - always"
   },
   {
     quote: "Chances are I'll step out of line, but who knows?",
-    autho: "Daniel Caesar - Who Knows"
+    author: "Daniel Caesar - Who Knows"
   },
   {
     quote: "우린 같은 템포, 다른 노래인 거야",
-    autho: "검정치마 - 한시 오분 (1:05)"
+    author: "검정치마 - 한시 오분 (1:05)"
   },
   {
     quote: "실처럼 가늘 때에도 절대로 엉키지 않아",
-    autho: "검정치마 - Big Love"
+    author: "검정치마 - Big Love"
   },
   {
     quote: "마지막 폭죽이 터지는 그날에도 별로 슬퍼할 것 같진 않아",
-    autho: "검정치마 - 폭죽과 풍선들"
+    author: "검정치마 - 폭죽과 풍선들"
   }
 ];
 
