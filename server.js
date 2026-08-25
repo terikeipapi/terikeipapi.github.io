@@ -1,13 +1,15 @@
-const express = require('express');
-const path = require('path');
+const express = require("express");
+const path = require("path");
+
 const app = express();
+const PORT = process.env.PORT || 8080;
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
-app.listen(8080, function(){
-    console.log('listening on 8080')
+app.get("/comp", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.get('/comp', function(req, res){
-    res.sendFile(path.join(__dirname + '/index.html'));
+app.listen(PORT, () => {
+  console.log(`http://localhost:${PORT}/comp`);
 });
